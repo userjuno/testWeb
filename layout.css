@@ -1,0 +1,194 @@
+ body{
+            width: auto;
+            height: 100%;
+            margin: 0 auto;
+            padding: 0;
+            
+        }
+   button{
+            text-align: center;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+        }     
+        @media screen and (min-width:1024px){
+            
+        
+        .header{
+            width: 100%;
+            height: 9%;
+            float: right;
+            position: fixed;
+            z-index: 10;
+            background: white;
+            
+           
+            
+        }
+        .sidebar{
+            width: 5%;
+            height: 100%;
+            float: left;
+            position: fixed;
+            z-index: 10;
+            background: white;
+           
+            
+        }
+        .content{
+            position: absolute;
+            background: rgb(249,249,249);
+            
+            margin-left: 40px;
+            margin-top: 50px;
+           
+            width:auto;
+            height:auto;
+            
+        }
+      
+/*        <!--header 버튼 처리->*/
+        #textbox{
+     
+        }
+        #logobtn{
+            margin-top: 10px; width: 100px;height: 35px;
+        }
+        #logoimg{
+             width: 100px;height: 35px;
+        }
+        #tbox{
+            float: left;
+            margin-top: 1.5%;
+            border:1px solid #ccc; width: 70%; height: 25px;
+            
+
+        }
+        #searchbox{
+            
+            width: 20%;
+            float: left;
+            
+        }
+        #searchbtn{
+            margin-top: 7%;
+           
+            border: 1px solid #ccc; 
+            width: 60px; height: 31px;
+            background: rgb(249,249,249);
+            
+        }
+        #searchimg{
+            width: 30px; height: 21px;
+        }
+        #rcdbtn{
+             cursor: pointer; width: 30px; height: 30px; margin-top: 20%;
+        }
+        #rcdimg{
+             width: 30px; height: 30px;
+        }
+        #appbtn{
+             cursor: pointer;width: 30px; height: 30px;  margin-top: 20%;
+        }
+        #appimg{
+             width: 30px; height: 30px;
+        }
+        #etcbtn{
+           cursor: pointer; width: 20px; height: 20px; margin-top: 0%;
+        }
+        #etcimg{
+             width: 30px; height: 30px;
+        }
+        #loginbtn{
+            cursor:pointer; width: 90px; height: 40px; outline: 0;
+            
+        }
+        #loginimg{
+           width: 90px; height: 40px;outline: 0;
+        }
+/*        header 버튼처리*/
+/*        sidbar 버튼처리*/
+        #listbtn{
+            margin-top: 8px; cursor: pointer; width: 50px;height: 40px;  margin-left: 15px; 
+        }
+        #listimg{
+            width: 50px;height: 40px;
+        }
+        #homebtn{
+            cursor: pointer; width: 45px;height:15px; margin-left: 19.4px;
+        }
+        #homeimg{
+            width: 45px;height: 45px;
+        }
+        #hotbtn{
+            cursor: pointer; width: 45px;height: 30px;  margin-left: 12.9px;
+        }
+        #hotimg{
+           width: 60px;height: 60px;
+        }
+        #subbtn{
+            cursor: pointer; width: 45px;height: 30px; margin-left: 19.4px;
+        }
+        #subimg{
+            width: 45px;height: 45px;
+        }
+        #boxbtn{
+            cursor: pointer; width: 45px;height: 30px; margin-left: 22px;
+        }
+        #boximg{
+            width: 45px;height: 45px;
+        }
+        #hisbtn{
+            cursor: pointer; width: 45px;height: 30px; margin-left: 22px;
+        }
+        #hisimg{
+            width: 50px;height: 50px;
+        }
+        #sidetd{
+            height: 70px;
+        }
+/*        sidbar 버튼처리*/
+        img { display: block; margin: 0px auto; }
+       
+        .video_display .animated {
+          display:none;
+        }
+
+        .video_display:hover .animated {
+          display: block;
+        }
+
+        .video_display:hover .static {
+          display: none
+        }
+       
+        .videoframe{
+            padding-top: 30px;
+            padding-left: 50px;
+            width: 96%;
+            
+           
+            
+        }
+        .video_box{
+           padding: 7px;
+            padding-bottom: 30px;
+           
+            width: 23.8%;
+            height: 41%;
+            float: left;
+            background-color: rgb(249,249,249);
+            
+        }
+        .video_display img{
+            width: 98%;
+
+        }
+        .tb_size{
+            height: 10px;
+            
+        }
+        }
+        
+        
